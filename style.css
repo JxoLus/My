@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import "reset.css";
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+} 
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 300px 0px 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.main-header__title {
+    font-size: 50px;
+    margin-right: 100px;
+}
+
+.main-header > span:not(.main-header__title) {
+    margin-top: 15px;
+    font-size: 20px;
+}
